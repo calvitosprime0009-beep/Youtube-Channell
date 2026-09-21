@@ -2,13 +2,12 @@
 guion.py — Texto gratis. Cadena de fallbacks (Groq como principal):
     1) Groq free tier (principal)
     2) Pollinations (gratis, sin clave)
-    3) Google Gemini free tier (opcional) 4) Banco de guiones local
+    3) Banco de guiones local
 """
 import json, os, re, random, requests
 
 GROQ = "https://api.groq.com/openai/v1/chat/completions"
 POLLI = "https://text.pollinations.ai/openai"
-GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 SISTEMA = (
     "Eres guionista de YouTube Shorts en español. Escribes para que NADIE deslice. "
@@ -37,21 +36,12 @@ def generar_texto(prompt, sistema=SISTEMA):
         except Exception as e:
             print("[guion] groq falló:", e)
 
-    # 2) Pollinations (Respaldo 1 — gratis y sin clave)
+    # 2) Pollinations (Respaldo — gratis y sin clave)
     try:
         d = _post(POLLI, {"model": "openai", "messages": msgs, "seed": random.randint(1, 10**6)})
         return d["choices"][0]["message"]["content"].strip()
     except Exception as e:
         print("[guion] pollinations falló:", e)
-
-    # 3) Gemini (Respaldo 2)
-    if os.getenv("GEMINI_API_KEY"):
-        try:
-            d = _post(f"{GEMINI}?key={os.environ['GEMINI_API_KEY']}",
-                      {"contents": [{"parts": [{"text": sistema + "\n\n" + prompt}]}]})
-            return d["candidates"][0]["content"]["parts"][0]["text"].strip()
-        except Exception as e:
-            print("[guion] gemini falló:", e)
             
     raise RuntimeError("Ningún proveedor de texto disponible")
 
