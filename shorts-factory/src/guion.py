@@ -1,12 +1,13 @@
 """
-guion.py — Texto gratis. Cadena de fallbacks para no depender de nadie:
-   1) Pollinations (gratis, sin clave)   2) Groq free tier (clave gratis opcional)
-   3) Google Gemini free tier (opcional) 4) Banco de guiones local
+guion.py — Texto gratis. Cadena de fallbacks (Groq como principal):
+    1) Groq free tier (principal)
+    2) Pollinations (gratis, sin clave)
+    3) Google Gemini free tier (opcional) 4) Banco de guiones local
 """
 import json, os, re, random, requests
 
-POLLI = "https://text.pollinations.ai/openai"
 GROQ = "https://api.groq.com/openai/v1/chat/completions"
+POLLI = "https://text.pollinations.ai/openai"
 GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 SISTEMA = (
@@ -26,13 +27,8 @@ def _post(url, payload, headers=None, timeout=60):
 
 def generar_texto(prompt, sistema=SISTEMA):
     msgs = [{"role": "system", "content": sistema}, {"role": "user", "content": prompt}]
-    # 1) Pollinations — gratis y sin clave
-    try:
-        d = _post(POLLI, {"model": "openai", "messages": msgs, "seed": random.randint(1, 10**6)})
-        return d["choices"][0]["message"]["content"].strip()
-    except Exception as e:
-        print("[guion] pollinations falló:", e)
-    # 2) Groq
+    
+    # 1) Groq (Principal)
     if os.getenv("GROQ_API_KEY"):
         try:
             d = _post(GROQ, {"model": "llama-3.3-70b-versatile", "messages": msgs},
@@ -40,7 +36,15 @@ def generar_texto(prompt, sistema=SISTEMA):
             return d["choices"][0]["message"]["content"].strip()
         except Exception as e:
             print("[guion] groq falló:", e)
-    # 3) Gemini
+
+    # 2) Pollinations (Respaldo 1 — gratis y sin clave)
+    try:
+        d = _post(POLLI, {"model": "openai", "messages": msgs, "seed": random.randint(1, 10**6)})
+        return d["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print("[guion] pollinations falló:", e)
+
+    # 3) Gemini (Respaldo 2)
     if os.getenv("GEMINI_API_KEY"):
         try:
             d = _post(f"{GEMINI}?key={os.environ['GEMINI_API_KEY']}",
@@ -48,6 +52,7 @@ def generar_texto(prompt, sistema=SISTEMA):
             return d["candidates"][0]["content"]["parts"][0]["text"].strip()
         except Exception as e:
             print("[guion] gemini falló:", e)
+            
     raise RuntimeError("Ningún proveedor de texto disponible")
 
 
