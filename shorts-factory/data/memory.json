@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.0,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 1,
+      "usos": 2,
       "vistas_totales": 0
     },
     "top3_rapido": {
@@ -59,6 +59,18 @@
       "plantilla": "Escribe un guion de 30s sobre {tema} siguiendo la plantilla Title (Official Trailer). Comienza con un gancho de 5 palabras, describe la trama en 3 líneas y termina con la fecha de lanzamiento y un CTA.",
       "usos": 0,
       "vistas_totales": 0
+    },
+    "officialvideo": {
+      "peso": 1.0,
+      "plantilla": "Instrucción para escribir un guion de 30 segundos sobre {tema} siguiendo el patrón de un video oficial de música: apertura con gancho, presentación del artista, fragmento de la canción, llamada a la acción y cierre con gancho que enlace al principio.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "trailerteaser": {
+      "peso": 1.0,
+      "plantilla": "Instrucción para escribir un guion de 30 segundos sobre {tema} siguiendo el patrón de un trailer teaser: apertura con imagen impactante, narrativa breve del conflicto, pista de música, cliffhanger y llamado a seguir viendo, con última frase enlazando al inicio.",
+      "usos": 0,
+      "vistas_totales": 0
     }
   },
   "publicados": [
@@ -85,7 +97,15 @@
       "titulo": "Unveiling the Impossible Record",
       "ts": 1790018750,
       "evaluado": false
+    },
+    {
+      "video_id": "AYgOrFUuttg",
+      "formato": "dato_impactante",
+      "tema": "misterios sin resolver",
+      "titulo": "Hidden Lakes Beneath 3% of Earth",
+      "ts": 1790023484,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790018750
+  "actualizado": 1790023484
 }
