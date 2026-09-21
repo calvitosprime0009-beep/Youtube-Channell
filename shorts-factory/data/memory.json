@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.0,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 0,
+      "usos": 1,
       "vistas_totales": 0
     },
     "top3_rapido": {
@@ -47,6 +47,18 @@
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
       "usos": 1,
       "vistas_totales": 0
+    },
+    "musicvideo": {
+      "peso": 1.0,
+      "plantilla": "Escribe un guion de 30s sobre {tema} siguiendo la plantilla Artist - Song (Official Video). Incluye un gancho de 5 palabras, la historia del video en 3-4 frases y finaliza con un llamado a la acción.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "officialtrailer": {
+      "peso": 1.0,
+      "plantilla": "Escribe un guion de 30s sobre {tema} siguiendo la plantilla Title (Official Trailer). Comienza con un gancho de 5 palabras, describe la trama en 3 líneas y termina con la fecha de lanzamiento y un CTA.",
+      "usos": 0,
+      "vistas_totales": 0
     }
   },
   "publicados": [
@@ -57,7 +69,15 @@
       "titulo": "Berlín: el futuro en tu voto",
       "ts": 1790000065,
       "evaluado": false
+    },
+    {
+      "video_id": "h9oa80Prfto",
+      "formato": "dato_impactante",
+      "tema": "el espacio profundo",
+      "titulo": "Cuerpos sin estrella: el fuego galáctico",
+      "ts": 1790000441,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790000065
+  "actualizado": 1790000441
 }
