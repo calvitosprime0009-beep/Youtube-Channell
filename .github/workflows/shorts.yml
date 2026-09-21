@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "shorts-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/memory.json
+          git add shorts-factory/data/memory.json
           git diff --staged --quiet || git commit -m "cerebro: actualizado $(date -u +%H:%M)"
           git push
 
@@ -55,5 +55,5 @@ jobs:
         if: always()
         with:
           name: short
-          path: salida/*.mp4
+          path: shorts-factory/salida/*.mp4
           retention-days: 7
