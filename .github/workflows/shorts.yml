@@ -1,9 +1,8 @@
-
 name: Fábrica de Shorts
  
 on:
   schedule:
-    - cron: "0 8,14,20 * * *"   # 3 vídeos al día (UTC). En España: 10:00, 16:00, 22:00
+    - cron: "0 8,14,20 * * *"    # 3 vídeos al día (UTC). En España: 10:00, 16:00, 22:00
   workflow_dispatch:             # botón para lanzarlo a mano cuando quieras
  
 permissions:
@@ -40,7 +39,6 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PAIS: ES
           PRIVACIDAD: unlisted
         run: python shorts-factory/src/main.py
