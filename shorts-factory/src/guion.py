@@ -6,7 +6,7 @@ guion.py — Texto gratis. Cadena de fallbacks (Groq como principal):
 """
 import json, os, re, random, requests
 
-GROQ = "https://api.groq.com/v1/chat/completions"
+GROQ = "https://api.groq.com/openai/v1/chat/completions"
 POLLI = "https://text.pollinations.ai/openai"
 
 SISTEMA = (
@@ -17,7 +17,6 @@ SISTEMA = (
     "Duración objetivo al leerlo en alto: 28-32 segundos (unas 75-90 palabras)."
 )
 
-print(f"DEBUG URL ACTIVA: {GROQ}")
 def _post(url, payload, headers=None, timeout=60):
     r = requests.post(url, json=payload, headers=headers or {}, timeout=timeout)
     r.raise_for_status()
@@ -28,10 +27,11 @@ def generar_texto(prompt, sistema=SISTEMA):
     msgs = [{"role": "system", "content": sistema}, {"role": "user", "content": prompt}]
     
     # 1) Groq (Principal)
-    if os.getenv("GROQ_API_KEY"):
+    groq_key = os.getenv("GROQ_API_KEY")
+    if groq_key:
         try:
             d = _post(GROQ, {"model": "llama-3.3-70b-versatile", "messages": msgs},
-                      {"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"})
+                    {"Authorization": f"Bearer {groq_key}"})
             return d["choices"][0]["message"]["content"].strip()
         except Exception as e:
             print("[guion] groq falló:", e)
