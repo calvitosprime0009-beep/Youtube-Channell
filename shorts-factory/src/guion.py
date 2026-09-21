@@ -17,7 +17,7 @@ SISTEMA = (
     "Duración objetivo al leerlo en alto: 28-32 segundos (unas 75-90 palabras)."
 )
 
-
+print(f"DEBUG URL ACTIVA: {GROQ}")
 def _post(url, payload, headers=None, timeout=60):
     r = requests.post(url, json=payload, headers=headers or {}, timeout=timeout)
     r.raise_for_status()
