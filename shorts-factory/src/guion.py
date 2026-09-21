@@ -6,7 +6,7 @@ guion.py — Texto gratis. Cadena de fallbacks (Groq como principal):
 """
 import json, os, re, random, requests
 
-GROQ = "https://api.groq.com/openai/v1/chat/completions"
+GROQ = "https://api.groq.com/v1/chat/completions"
 POLLI = "https://text.pollinations.ai/openai"
 
 SISTEMA = (
