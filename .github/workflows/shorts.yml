@@ -30,27 +30,29 @@ jobs:
           python-version: "3.11"
           cache: pip
  
-      - run: pip install -q -r requirements.txt
  
-      - name: Producir y subir el Short
-        env:
-          YT_CLIENT_ID:     ${{ secrets.YT_CLIENT_ID }}
-          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-          YT_API_KEY:       ${{ secrets.YT_API_KEY }}
-          GROQ_API_KEY:     ${{ secrets.GROQ_API_KEY }}
-          GEMINI_API_KEY:   ${{ secrets.GEMINI_API_KEY }}
-          PAIS: ES
-          PRIVACIDAD: unlisted
-        run: python src/main.py
- 
-      - name: Guardar lo aprendido
-        run: |
-          git config user.name  "shorts-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data/memory.json
-          git diff --staged --quiet || git commit -m "cerebro: actualizado $(date -u +%F_%H:%M)"
-          git push
+      - name: Instalar dependencias
+      - run: pip install -q -r shorts-factory/requirements.txt
+
+    - name: Producir y subir el Short
+      env:
+        YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+        YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+        YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        PAIS: ES
+        PRIVACIDAD: unlisted
+      run: python shorts-factory/src/main.py
+      
+        - name: Guardar lo aprendido
+      run: |
+        git config user.name "shorts-bot"
+        git config user.email "bot@users.noreply.github.com"
+        git add data/memory.json
+        git diff --staged --quiet || git commit -m "cerebro: actualizado $(date -u +%H:%M)"
+        git push
  
       - uses: actions/upload-artifact@v4
         if: always()
