@@ -81,13 +81,21 @@ def crear(tema, plantilla):
     except Exception as e:
         print("[guion] meta falló, uso respaldo:", e)
         meta = {}
+        
     titulo = (meta.get("titulo") or f"{tema.capitalize()} como nunca te lo contaron")[:95]
     desc = meta.get("descripcion") or f"{narracion[:120]}...\n\n#shorts #curiosidades #datos #viral #sabiasque"
     escenas = meta.get("escenas") or []
+    
     if len(escenas) < 4:
         escenas += [f"cinematic vertical photo about {tema}, dramatic lighting, "
                     f"ultra detailed, 9:16"] * (4 - len(escenas))
+                    
     if "#shorts" not in desc.lower():
         desc += "\n\n#shorts #curiosidades #viral"
-    return {"narracion": narracion, "titulo": titulo,
-            "descripcion": desc, "escenas": escenas[:4]}
+        
+    return {
+        "narracion": narracion, 
+        "titulo": titulo,
+        "descripcion": desc, 
+        "escenas": escenas[:4]
+    }
