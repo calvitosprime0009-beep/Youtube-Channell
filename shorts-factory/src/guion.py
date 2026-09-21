@@ -31,7 +31,7 @@ def generar_texto(prompt, sistema=SISTEMA):
     if groq_key:
         try:
             print(f"[guion] Intentando conectar a Groq...")
-            d = _post(GROQ, {"model": "llama-3.3-70b-versatile", "messages": msgs},
+            d = _post(GROQ, {"model": "llama-3.1-8b-instant", "messages": msgs},
                     {"Authorization": f"Bearer {groq_key}"})
             print("[guion] ¡Groq respondió con éxito!")
             return d["choices"][0]["message"]["content"].strip()
