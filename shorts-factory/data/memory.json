@@ -51,7 +51,7 @@
     "musicvideo": {
       "peso": 1.0,
       "plantilla": "Escribe un guion de 30s sobre {tema} siguiendo la plantilla Artist - Song (Official Video). Incluye un gancho de 5 palabras, la historia del video en 3-4 frases y finaliza con un llamado a la acción.",
-      "usos": 0,
+      "usos": 1,
       "vistas_totales": 0
     },
     "officialtrailer": {
@@ -77,7 +77,15 @@
       "titulo": "Cuerpos sin estrella: el fuego galáctico",
       "ts": 1790000441,
       "evaluado": false
+    },
+    {
+      "video_id": "fcEL6E-02Oc",
+      "formato": "musicvideo",
+      "tema": "récords imposibles",
+      "titulo": "Unveiling the Impossible Record",
+      "ts": 1790018750,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790000441
+  "actualizado": 1790018750
 }
