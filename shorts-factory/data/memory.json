@@ -1,0 +1,63 @@
+{
+  "formatos": {
+    "dato_impactante": {
+      "peso": 1.0,
+      "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "top3_rapido": {
+      "peso": 1.0,
+      "plantilla": "Cuenta atrás de 3 cosas brutales sobre {tema}, de menos a más impactante. Frases de máximo 8 palabras. La número 1 tiene que dejar al espectador con la boca abierta.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "mito_vs_realidad": {
+      "peso": 1.0,
+      "plantilla": "Desmonta una creencia falsa muy extendida sobre {tema}. Formato: 'Todo el mundo cree X... pero la verdad es Y'. Termina con el dato que lo prueba.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "pregunta_gancho": {
+      "peso": 1.0,
+      "plantilla": "Abre con una pregunta imposible sobre {tema} que obligue a quedarse a ver la respuesta. Da la respuesta en el segundo 20. Cierra repitiendo la pregunta para el loop.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "si_pasara_esto": {
+      "peso": 1.0,
+      "plantilla": "Escenario hipotético sobre {tema}: '¿Qué pasaría si...?'. Describe las consecuencias en escalada, de lo pequeño a lo catastrófico.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "no_sabias_que": {
+      "peso": 1.0,
+      "plantilla": "Encadena 4 microdatos sobre {tema}, cada uno más raro que el anterior, separados por 'pero espera'. Ritmo muy rápido.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "musicvideolaunch": {
+      "peso": 1.0,
+      "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "gametrailerreveal": {
+      "peso": 1.0,
+      "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
+      "usos": 1,
+      "vistas_totales": 0
+    }
+  },
+  "publicados": [
+    {
+      "video_id": "kZC3QtMjFQc",
+      "formato": "gametrailerreveal",
+      "tema": "elecciones berlin",
+      "titulo": "Berlín: el futuro en tu voto",
+      "ts": 1790000065,
+      "evaluado": false
+    }
+  ],
+  "actualizado": 1790000065
+}
