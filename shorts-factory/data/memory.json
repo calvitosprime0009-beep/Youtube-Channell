@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.0,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 3,
+      "usos": 4,
       "vistas_totales": 0
     },
     "top3_rapido": {
@@ -113,7 +113,15 @@
       "titulo": "La verdad que no debería existir",
       "ts": 1790065453,
       "evaluado": false
+    },
+    {
+      "video_id": "-9ly9Qe9O-c",
+      "formato": "dato_impactante",
+      "tema": "la historia que no te contaron",
+      "titulo": "La historia que no te contaron como nunca te lo contaron",
+      "ts": 1790086954,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790065453
+  "actualizado": 1790086954
 }
