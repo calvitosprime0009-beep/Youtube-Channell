@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.0,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 4,
+      "usos": 5,
       "vistas_totales": 0
     },
     "top3_rapido": {
@@ -121,7 +121,15 @@
       "titulo": "La historia que no te contaron como nunca te lo contaron",
       "ts": 1790086954,
       "evaluado": false
+    },
+    {
+      "video_id": "yXrWgqanaNc",
+      "formato": "dato_impactante",
+      "tema": "delcy rodríguez",
+      "titulo": "Secret Bank: How a Future President Hid a Fortune",
+      "ts": 1790108475,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790086954
+  "actualizado": 1790108475
 }
