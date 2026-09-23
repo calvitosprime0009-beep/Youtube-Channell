@@ -1,10 +1,10 @@
 {
   "formatos": {
     "dato_impactante": {
-      "peso": 1.0,
+      "peso": 3.1725,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 5,
-      "vistas_totales": 0
+      "usos": 6,
+      "vistas_totales": 326
     },
     "top3_rapido": {
       "peso": 1.0,
@@ -49,10 +49,10 @@
       "vistas_totales": 30
     },
     "musicvideo": {
-      "peso": 1.0,
+      "peso": 0.7076,
       "plantilla": "Escribe un guion de 30s sobre {tema} siguiendo la plantilla Artist - Song (Official Video). Incluye un gancho de 5 palabras, la historia del video en 3-4 frases y finaliza con un llamado a la acción.",
       "usos": 1,
-      "vistas_totales": 0
+      "vistas_totales": 1
     },
     "officialtrailer": {
       "peso": 1.0,
@@ -88,7 +88,7 @@
       "tema": "el espacio profundo",
       "titulo": "Cuerpos sin estrella: el fuego galáctico",
       "ts": 1790000441,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "fcEL6E-02Oc",
@@ -96,7 +96,7 @@
       "tema": "récords imposibles",
       "titulo": "Unveiling the Impossible Record",
       "ts": 1790018750,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "AYgOrFUuttg",
@@ -145,7 +145,15 @@
       "titulo": "Lugo's Hidden Wonders Unveiled",
       "ts": 1790173408,
       "evaluado": false
+    },
+    {
+      "video_id": "I6cakjVR-84",
+      "formato": "dato_impactante",
+      "tema": "animales extremos",
+      "titulo": "Unveiling the Hidden Depths of Extreme Animals",
+      "ts": 1790194969,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790173408
+  "actualizado": 1790194969
 }
