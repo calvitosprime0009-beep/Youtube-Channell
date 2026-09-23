@@ -33,7 +33,7 @@
     "no_sabias_que": {
       "peso": 1.0,
       "plantilla": "Encadena 4 microdatos sobre {tema}, cada uno más raro que el anterior, separados por 'pero espera'. Ritmo muy rápido.",
-      "usos": 0,
+      "usos": 1,
       "vistas_totales": 0
     },
     "musicvideolaunch": {
@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 1.0,
+      "peso": 3.1,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
       "usos": 2,
-      "vistas_totales": 0
+      "vistas_totales": 30
     },
     "musicvideo": {
       "peso": 1.0,
@@ -80,7 +80,7 @@
       "tema": "elecciones berlin",
       "titulo": "Berlín: el futuro en tu voto",
       "ts": 1790000065,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "h9oa80Prfto",
@@ -137,7 +137,15 @@
       "titulo": "Otoño Rompe Rutinas: Descubre su Encanto",
       "ts": 1790151846,
       "evaluado": false
+    },
+    {
+      "video_id": "DCd0GpcdYE0",
+      "formato": "no_sabias_que",
+      "tema": "lugo",
+      "titulo": "Lugo's Hidden Wonders Unveiled",
+      "ts": 1790173408,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790151846
+  "actualizado": 1790173408
 }
