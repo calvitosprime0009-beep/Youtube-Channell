@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 1.0,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 1,
+      "usos": 2,
       "vistas_totales": 0
     },
     "musicvideo": {
@@ -129,7 +129,15 @@
       "titulo": "Secret Bank: How a Future President Hid a Fortune",
       "ts": 1790108475,
       "evaluado": false
+    },
+    {
+      "video_id": "fJvH3E0XWZA",
+      "formato": "gametrailerreveal",
+      "tema": "otoño",
+      "titulo": "Otoño Rompe Rutinas: Descubre su Encanto",
+      "ts": 1790151846,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790108475
+  "actualizado": 1790151846
 }
