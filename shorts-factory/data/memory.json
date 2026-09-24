@@ -1,10 +1,10 @@
 {
   "formatos": {
     "dato_impactante": {
-      "peso": 2.2375,
+      "peso": 1.5754,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
       "usos": 6,
-      "vistas_totales": 328
+      "vistas_totales": 329
     },
     "top3_rapido": {
       "peso": 1.0,
@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 3.1,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 3,
+      "usos": 4,
       "vistas_totales": 30
     },
     "musicvideo": {
@@ -112,7 +112,7 @@
       "tema": "el cerebro",
       "titulo": "La verdad que no debería existir",
       "ts": 1790065453,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "-9ly9Qe9O-c",
@@ -161,7 +161,15 @@
       "titulo": "Récords Imposibles: ¡Vive la Increíbleidad!",
       "ts": 1790238278,
       "evaluado": false
+    },
+    {
+      "video_id": "5EfEuL9kBgI",
+      "formato": "gametrailerreveal",
+      "tema": "el fondo del océano",
+      "titulo": "Ocean's Hidden Truths: 3 Shocking Revelations",
+      "ts": 1790259765,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790238278
+  "actualizado": 1790259765
 }
