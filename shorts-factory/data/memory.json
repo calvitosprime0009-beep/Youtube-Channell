@@ -1,10 +1,10 @@
 {
   "formatos": {
     "dato_impactante": {
-      "peso": 3.1725,
+      "peso": 2.2375,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
       "usos": 6,
-      "vistas_totales": 326
+      "vistas_totales": 328
     },
     "top3_rapido": {
       "peso": 1.0,
@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 3.1,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 2,
+      "usos": 3,
       "vistas_totales": 30
     },
     "musicvideo": {
@@ -104,7 +104,7 @@
       "tema": "misterios sin resolver",
       "titulo": "Hidden Lakes Beneath 3% of Earth",
       "ts": 1790023484,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "U6p319Af6cs",
@@ -153,7 +153,15 @@
       "titulo": "Unveiling the Hidden Depths of Extreme Animals",
       "ts": 1790194969,
       "evaluado": false
+    },
+    {
+      "video_id": "OQuviqV41lo",
+      "formato": "gametrailerreveal",
+      "tema": "récords imposibles",
+      "titulo": "Récords Imposibles: ¡Vive la Increíbleidad!",
+      "ts": 1790238278,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790194969
+  "actualizado": 1790238278
 }
