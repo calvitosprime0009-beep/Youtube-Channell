@@ -1,10 +1,10 @@
 {
   "formatos": {
     "dato_impactante": {
-      "peso": 1.9395,
+      "peso": 1.4311,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
       "usos": 6,
-      "vistas_totales": 438
+      "vistas_totales": 447
     },
     "top3_rapido": {
       "peso": 1.0,
@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 3.1,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 5,
+      "usos": 6,
       "vistas_totales": 30
     },
     "musicvideo": {
@@ -128,7 +128,7 @@
       "tema": "delcy rodríguez",
       "titulo": "Secret Bank: How a Future President Hid a Fortune",
       "ts": 1790108475,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "fJvH3E0XWZA",
@@ -177,7 +177,15 @@
       "titulo": "¿Qué pasa cuando usas todo tu cerebro?",
       "ts": 1790281442,
       "evaluado": false
+    },
+    {
+      "video_id": "MK3ThF99ja4",
+      "formato": "gametrailerreveal",
+      "tema": "patient zero lyrics",
+      "titulo": "Patient Zero: El Contagio que Cambió Todo",
+      "ts": 1790324786,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790281442
+  "actualizado": 1790324786
 }
