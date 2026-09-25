@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 3.1,
+      "peso": 2.2049,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 6,
-      "vistas_totales": 30
+      "usos": 7,
+      "vistas_totales": 34
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -69,6 +69,18 @@
     "trailerteaser": {
       "peso": 1.0,
       "plantilla": "Instrucción para escribir un guion de 30 segundos sobre {tema} siguiendo el patrón de un trailer teaser: apertura con imagen impactante, narrativa breve del conflicto, pista de música, cliffhanger y llamado a seguir viendo, con última frase enlazando al inicio.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "trailerpattern": {
+      "peso": 1.112,
+      "plantilla": "Escribe un guion de 30s sobre {tema} usando un gancho brutal de menos de 10 palabras, mostrando escenas clave en secuencias rápidas y terminando con una llamada a la acción que vuelva al inicio para crear bucle. No incluir saludos ni relleno, frases cortas, tono hablato.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "videooficialpattern": {
+      "peso": 1.112,
+      "plantilla": "Escribe un guion de 30s sobre {tema} como un video oficial de canción, con gancho brutal, fragmentos de la letra o coreografía, transiciones rápidas, y cierre que enlace al principio creando bucle.",
       "usos": 0,
       "vistas_totales": 0
     }
@@ -136,7 +148,7 @@
       "tema": "otoño",
       "titulo": "Otoño Rompe Rutinas: Descubre su Encanto",
       "ts": 1790151846,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "DCd0GpcdYE0",
@@ -185,7 +197,15 @@
       "titulo": "Patient Zero: El Contagio que Cambió Todo",
       "ts": 1790324786,
       "evaluado": false
+    },
+    {
+      "video_id": "XXDWjBwEj8Y",
+      "formato": "gametrailerreveal",
+      "tema": "el cerebro",
+      "titulo": "Descubre el poder secreto de tu cerebro",
+      "ts": 1790346246,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790324786
+  "actualizado": 1790346246
 }
