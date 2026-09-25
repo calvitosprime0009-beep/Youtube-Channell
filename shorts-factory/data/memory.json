@@ -31,10 +31,10 @@
       "vistas_totales": 0
     },
     "no_sabias_que": {
-      "peso": 1.0,
+      "peso": 0.7644,
       "plantilla": "Encadena 4 microdatos sobre {tema}, cada uno más raro que el anterior, separados por 'pero espera'. Ritmo muy rápido.",
       "usos": 1,
-      "vistas_totales": 0
+      "vistas_totales": 7
     },
     "musicvideolaunch": {
       "peso": 1.0,
@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 2.2049,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 7,
+      "usos": 8,
       "vistas_totales": 34
     },
     "musicvideo": {
@@ -156,7 +156,7 @@
       "tema": "lugo",
       "titulo": "Lugo's Hidden Wonders Unveiled",
       "ts": 1790173408,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "I6cakjVR-84",
@@ -205,7 +205,15 @@
       "titulo": "Descubre el poder secreto de tu cerebro",
       "ts": 1790346246,
       "evaluado": false
+    },
+    {
+      "video_id": "YLqY4t1UXqQ",
+      "formato": "gametrailerreveal",
+      "tema": "malí - cabo verde",
+      "titulo": "Malí y Cabo Verde: 3 Sorprendentes verdades",
+      "ts": 1790367623,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790346246
+  "actualizado": 1790367623
 }
