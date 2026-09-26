@@ -1,10 +1,10 @@
 {
   "formatos": {
     "dato_impactante": {
-      "peso": 1.4311,
+      "peso": 1.1538,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
       "usos": 6,
-      "vistas_totales": 447
+      "vistas_totales": 463
     },
     "top3_rapido": {
       "peso": 1.0,
@@ -45,7 +45,7 @@
     "gametrailerreveal": {
       "peso": 2.2049,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 8,
+      "usos": 9,
       "vistas_totales": 34
     },
     "musicvideo": {
@@ -164,7 +164,7 @@
       "tema": "animales extremos",
       "titulo": "Unveiling the Hidden Depths of Extreme Animals",
       "ts": 1790194969,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "OQuviqV41lo",
@@ -213,7 +213,15 @@
       "titulo": "Malí y Cabo Verde: 3 Sorprendentes verdades",
       "ts": 1790367623,
       "evaluado": false
+    },
+    {
+      "video_id": "HaD8p12Z0n8",
+      "formato": "gametrailerreveal",
+      "tema": "ayuda humanitaria",
+      "titulo": "Urgent Aid in War Zones: Every Drop Counts",
+      "ts": 1790410990,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790367623
+  "actualizado": 1790410990
 }
