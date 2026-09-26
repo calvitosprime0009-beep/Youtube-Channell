@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 1.719,
+      "peso": 1.383,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 10,
-      "vistas_totales": 52
+      "usos": 11,
+      "vistas_totales": 70
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -180,7 +180,7 @@
       "tema": "el fondo del océano",
       "titulo": "Ocean's Hidden Truths: 3 Shocking Revelations",
       "ts": 1790259765,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "PiRvhjT2n4c",
@@ -229,7 +229,15 @@
       "titulo": "Ignacio's 30-Second Classroom Time Warp",
       "ts": 1790432450,
       "evaluado": false
+    },
+    {
+      "video_id": "xrMLrXBU1iM",
+      "formato": "gametrailerreveal",
+      "tema": "misterios sin resolver",
+      "titulo": "El Hombre que Nunca se Fue: Ecos en la Ciudad",
+      "ts": 1790454022,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790432450
+  "actualizado": 1790454022
 }
