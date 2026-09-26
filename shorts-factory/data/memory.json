@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 2.2049,
+      "peso": 1.719,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 9,
-      "vistas_totales": 34
+      "usos": 10,
+      "vistas_totales": 52
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -172,7 +172,7 @@
       "tema": "récords imposibles",
       "titulo": "Récords Imposibles: ¡Vive la Increíbleidad!",
       "ts": 1790238278,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "5EfEuL9kBgI",
@@ -221,7 +221,15 @@
       "titulo": "Urgent Aid in War Zones: Every Drop Counts",
       "ts": 1790410990,
       "evaluado": false
+    },
+    {
+      "video_id": "U0V158_p7VE",
+      "formato": "gametrailerreveal",
+      "tema": "ignacio escolar",
+      "titulo": "Ignacio's 30-Second Classroom Time Warp",
+      "ts": 1790432450,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790410990
+  "actualizado": 1790432450
 }
