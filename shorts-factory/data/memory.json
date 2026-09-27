@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.1538,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 7,
+      "usos": 8,
       "vistas_totales": 463
     },
     "top3_rapido": {
@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 1.0817,
+      "peso": 0.9159,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
       "usos": 11,
-      "vistas_totales": 81
+      "vistas_totales": 96
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -81,6 +81,18 @@
     "videooficialpattern": {
       "peso": 1.112,
       "plantilla": "Escribe un guion de 30s sobre {tema} como un video oficial de canción, con gancho brutal, fragmentos de la letra o coreografía, transiciones rápidas, y cierre que enlace al principio creando bucle.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "trailerhype": {
+      "peso": 0.9833,
+      "plantilla": "Escribe un guion de 30s sobre {tema} como un teaser de película o serie: gancho brutal, descripción corta del conflicto, estrellas destacadas, ritmo rápido, sin relleno, y cierra con la frase inicial para un bucle perfecto.",
+      "usos": 0,
+      "vistas_totales": 0
+    },
+    "minecraftchallenge": {
+      "peso": 0.9833,
+      "plantilla": "Escribe un guion de 30s sobre {tema} donde exploras o desafías un mundo de Minecraft: introducción impactante, objetivo claro, obstáculos, logros, frases cortas, sin relleno, y termina con la frase inicial para un bucle perfecto.",
       "usos": 0,
       "vistas_totales": 0
     }
@@ -196,7 +208,7 @@
       "tema": "patient zero lyrics",
       "titulo": "Patient Zero: El Contagio que Cambió Todo",
       "ts": 1790324786,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "XXDWjBwEj8Y",
@@ -245,7 +257,15 @@
       "titulo": "El Misterio que No Debería Existir",
       "ts": 1790497355,
       "evaluado": false
+    },
+    {
+      "video_id": "BWLM53t7NSo",
+      "formato": "dato_impactante",
+      "tema": "récords imposibles",
+      "titulo": "Imposibles Reglas: El Récord que Cambia tu Mundo",
+      "ts": 1790518851,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790497355
+  "actualizado": 1790518851
 }
