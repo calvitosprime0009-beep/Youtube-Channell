@@ -3,7 +3,7 @@
     "dato_impactante": {
       "peso": 1.1538,
       "plantilla": "Un dato que no te esperas sobre {tema}. Empieza con la afirmación más increíble, luego explícala en 3 frases cortas, y termina con una frase que conecte con el principio para que el video haga loop.",
-      "usos": 6,
+      "usos": 7,
       "vistas_totales": 463
     },
     "top3_rapido": {
@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 1.383,
+      "peso": 1.0817,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
       "usos": 11,
-      "vistas_totales": 70
+      "vistas_totales": 81
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -188,7 +188,7 @@
       "tema": "el cerebro",
       "titulo": "¿Qué pasa cuando usas todo tu cerebro?",
       "ts": 1790281442,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "MK3ThF99ja4",
@@ -237,7 +237,15 @@
       "titulo": "El Hombre que Nunca se Fue: Ecos en la Ciudad",
       "ts": 1790454022,
       "evaluado": false
+    },
+    {
+      "video_id": "kSH8gSjTWAw",
+      "formato": "dato_impactante",
+      "tema": "misterios sin resolver",
+      "titulo": "El Misterio que No Debería Existir",
+      "ts": 1790497355,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790454022
+  "actualizado": 1790497355
 }
