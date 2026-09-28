@@ -43,10 +43,10 @@
       "vistas_totales": 0
     },
     "gametrailerreveal": {
-      "peso": 0.7929,
+      "peso": 3.169,
       "plantilla": "instrucción para escribir un guion de 30s sobre {tema} siguiendo ese patrón",
-      "usos": 11,
-      "vistas_totales": 110
+      "usos": 12,
+      "vistas_totales": 491
     },
     "musicvideo": {
       "peso": 0.7076,
@@ -236,7 +236,7 @@
       "tema": "malí - cabo verde",
       "titulo": "Malí y Cabo Verde: 3 Sorprendentes verdades",
       "ts": 1790367623,
-      "evaluado": false
+      "evaluado": true
     },
     {
       "video_id": "HaD8p12Z0n8",
@@ -285,7 +285,15 @@
       "titulo": "El secreto que no deberías ver",
       "ts": 1790540477,
       "evaluado": false
+    },
+    {
+      "video_id": "0a8PzsKmZgQ",
+      "formato": "gametrailerreveal",
+      "tema": "santiago niño becerra",
+      "titulo": "Santiago Niño Becerra: ¿El futuro de Chile?",
+      "ts": 1790584010,
+      "evaluado": false
     }
   ],
-  "actualizado": 1790540477
+  "actualizado": 1790584010
 }
